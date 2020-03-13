@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc1b168ccc2044f8ad0467162320ee7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cc1b168ccc2044f8ad0467162320ee7c" ></div>
+        
+</body>
+<script>    
+    
+            var map_cc1b168ccc2044f8ad0467162320ee7c = L.map(
+                "map_cc1b168ccc2044f8ad0467162320ee7c",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0d04f918d2d04abfad36f925380a9041 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cc1b168ccc2044f8ad0467162320ee7c);
+        
+    
+            var circle_marker_f564484a1de1437b8e38a584913d08b1 = L.circleMarker(
+                [40.60613336268842, -74.17904376983643],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc1b168ccc2044f8ad0467162320ee7c);
+        
+    
+        var popup_b06d76e6006144f1811e95a49458d8bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89c2a71b8d52495ca23f2f460457fc20 = $(`<div id="html_89c2a71b8d52495ca23f2f460457fc20" style="width: 100.0%; height: 100.0%;">[&#39;Staten Island, NY 10311&#39;, &#39;United States&#39;], NY</div>`)[0];
+            popup_b06d76e6006144f1811e95a49458d8bc.setContent(html_89c2a71b8d52495ca23f2f460457fc20);
+        
+
+        circle_marker_f564484a1de1437b8e38a584913d08b1.bindPopup(popup_b06d76e6006144f1811e95a49458d8bc)
+        ;
+
+        
+    
+    
+            var marker_c67c64451200431b8f04dd6b5f7e093b = L.marker(
+                [40.61900594093755, -73.99037472596906],
+                {"fillColor": "#43d9de", "parseHtml": false, "radius": 8}
+            ).addTo(map_cc1b168ccc2044f8ad0467162320ee7c);
+        
+    
+        var popup_5ba05d6c91aa4a6f8a247def52de03ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_879511cc805d43dc89522503e7bf49bc = $(`<div id="html_879511cc805d43dc89522503e7bf49bc" style="width: 100.0%; height: 100.0%;">Bensonhurst, NY</div>`)[0];
+            popup_5ba05d6c91aa4a6f8a247def52de03ce.setContent(html_879511cc805d43dc89522503e7bf49bc);
+        
+
+        marker_c67c64451200431b8f04dd6b5f7e093b.bindPopup(popup_5ba05d6c91aa4a6f8a247def52de03ce)
+        ;
+
+        
+    
+    
+            var marker_6066ccf1c4f640c7a8ce34d0121ef514 = L.marker(
+                [40.69042711809854, -73.95468677509598],
+                {"fillColor": "#43d9de", "parseHtml": false, "radius": 8}
+            ).addTo(map_cc1b168ccc2044f8ad0467162320ee7c);
+        
+    
+        var popup_6ca86bc2da354e97a8fad637d5598bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0db942d073945709d973f432b365109 = $(`<div id="html_f0db942d073945709d973f432b365109" style="width: 100.0%; height: 100.0%;">Bedford-Stuyvesant, NY</div>`)[0];
+            popup_6ca86bc2da354e97a8fad637d5598bf1.setContent(html_f0db942d073945709d973f432b365109);
+        
+
+        marker_6066ccf1c4f640c7a8ce34d0121ef514.bindPopup(popup_6ca86bc2da354e97a8fad637d5598bf1)
+        ;
+
+        
+    
+</script>
